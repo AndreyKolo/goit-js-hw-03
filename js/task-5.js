@@ -31,7 +31,7 @@ const getAllPropValues = function (arr, prop) {
   for (const item of arr) {
     let value = item[prop];
 
-    if (value != undefined) {
+    if (value !== undefined) {
       values.push(value);
     }
   }

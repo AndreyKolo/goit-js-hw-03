@@ -12,7 +12,6 @@ const user = {
   hobby: 'html',
   premium: true,
 };
-console.log(user);
 
 user.mood = 'happy';
 
